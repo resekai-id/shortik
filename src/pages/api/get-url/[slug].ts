@@ -25,7 +25,7 @@ const getSlugUrl = async (req: NextApiRequest, res: NextApiResponse) => {
     return;
   }
 
-  res.redirect(data.url);
+  return res.json(data);
 };
 
 export default getSlugUrl;
