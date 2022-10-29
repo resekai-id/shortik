@@ -89,7 +89,7 @@ const ShortLinkForm: React.FC = () => {
           <div className="flex">
             <div className="flex rounded-md shadow-sm">
               <span className="inline-flex items-center rounded-l-md border border-r-0 border-gray-300 bg-gray-50 px-3 text-sm text-gray-900 p-2">
-                www.shortik-vercel.app/
+                www.shortik.vercel.app/
               </span>
               <input
                 type="text"
