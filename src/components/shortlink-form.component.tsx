@@ -51,11 +51,12 @@ const ShortLinkForm: React.FC = () => {
         <input
           type="url"
           autoFocus
-          placeholder="www.example.com"
+          placeholder="https://www.example.com"
           value={values.url}
           onChange={(e) => setValues((v) => ({ ...v, url: e.target.value }))}
           className="mb-8 block w-full p-2 flex-1 rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
           required
+          title="https://www.example.com"
         />
         {createSlug.status === 'success' ? (
           <div className="flex w-full">
