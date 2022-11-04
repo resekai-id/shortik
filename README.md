@@ -139,7 +139,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Sanzhar Nussipbek - [@qdev][linkedin-url] - nsanzhar.99@gmail.com
+Sanzhar Nussipbek - [@kindadev][linkedin-url] - nsanzhar.99@gmail.com
 
 Shortik: [https://github.com/kindageek/shortik](https://github.com/kindageek/shortik)
 
@@ -147,7 +147,7 @@ Shortik: [https://github.com/kindageek/shortik](https://github.com/kindageek/sho
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[linkedin-url]: https://linkedin.com/in/qdev
+[linkedin-url]: https://linkedin.com/in/kindadev
 [product-screenshot]: src/public/images/screenshot.png
 [product-recording]: src/public/images/recording.gif
 [Next.js]: https://img.shields.io/badge/next.js-20232A?style=for-the-badge&logo=nextdotjs&logoColor=white
