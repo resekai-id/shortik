@@ -10,7 +10,7 @@ type Form = {
 };
 
 const ShortLinkForm: React.FC = () => {
-  const [values, setValues] = useState<Form>({ slug: '', url: '' });
+  const [values, setValues] = useState<Form>({ slug: '', url: 'https://www.' });
   const [copied, setCopied] = useState(false);
   const url = window.location.origin;
 
@@ -34,10 +34,6 @@ const ShortLinkForm: React.FC = () => {
     setValues((v) => ({ ...v, slug: nanoid(10) }));
     slugCheck.refetch();
   };
-
-  React.useEffect(() => {
-    console.log(slugCheck.isFetched && slugCheck.data!.used);
-  }, [slugCheck]);
 
   return (
     <div className="flex flex-col items-center justify-center">
@@ -136,7 +132,7 @@ const ShortLinkForm: React.FC = () => {
           <button
             type="submit"
             disabled={
-              (slugCheck.isFetched && slugCheck.data!.used) ||
+              (slugCheck?.isFetched && slugCheck?.data?.used) ||
               createSlug.status !== 'idle'
             }
             className="mt-8 inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 disabled:bg-gray-300"
