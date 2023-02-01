@@ -36,6 +36,7 @@ const ShortLinkForm: React.FC = () => {
   };
 
   return (
+    <title>Minima(link)!</title>
     <div className="flex flex-col items-center justify-center">
       <h1 className="text-2xl font-bold p-4 text-white text-center">
         MINIMA(LINK)!
