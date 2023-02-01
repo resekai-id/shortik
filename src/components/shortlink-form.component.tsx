@@ -38,7 +38,7 @@ const ShortLinkForm: React.FC = () => {
   return (
     <div className="flex flex-col items-center justify-center">
       <h1 className="text-2xl font-bold p-4 text-white text-center">
-        Generate you unique short link!
+        MINIMA(LINK)!
       </h1>
       <form
         onSubmit={handleSubmit}
@@ -86,7 +86,7 @@ const ShortLinkForm: React.FC = () => {
           <div className="flex">
             <div className="flex rounded-md shadow-sm">
               <span className="inline-flex items-center rounded-l-md border border-r-0 border-gray-300 bg-gray-50 px-3 text-sm text-gray-900 p-2">
-                www.shortik.vercel.app/
+                s.arh.my.id/
               </span>
               <input
                 type="text"
@@ -113,7 +113,7 @@ const ShortLinkForm: React.FC = () => {
         )}
         {slugCheck.data?.used && (
           <span className="mt-1 text-center text-red-500 font-thin text-sm">
-            Slug already in use.
+            Slug already in use :(
           </span>
         )}
         {createSlug.status === 'success' ? (
@@ -126,7 +126,7 @@ const ShortLinkForm: React.FC = () => {
             }}
             className="mt-8 inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 disabled:bg-gray-300"
           >
-            Reset
+            Reset!
           </button>
         ) : (
           <button
@@ -155,7 +155,7 @@ const ShortLinkForm: React.FC = () => {
                 />
               </svg>
             )}
-            Generate
+            Generate!
           </button>
         )}
       </form>
